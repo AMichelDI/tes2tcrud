@@ -5,11 +5,9 @@ import mx.com.ids.tes2tcrud.model.Employee;
 import java.util.List;
 
 public interface EmployeeService {
-    Employee updateEmployee(Employee employee);
-
+    Employee createEmployee (Employee employee);
+    Employee updateEmployee (Employee employee);
     List<Employee> getAllEmployee();
-
-    Employee getEmployeeId(long employeeId);
-
+    Employee getEmployeeById(long employeeId);
     void deleteEmployee(long id);
 }

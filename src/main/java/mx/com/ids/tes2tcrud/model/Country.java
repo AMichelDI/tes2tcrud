@@ -13,7 +13,7 @@ public class Country {
     private Long countryId;
 
     @Column(name = "codigo")
-    private String country_code;
+    private String countryCode;
 
     @Column(name = "nombre")
     private String name;
@@ -33,12 +33,12 @@ public class Country {
         this.countryId = countryId;
     }
 
-    public String getCountry_code() {
-        return country_code;
+    public String getCountryCode() {
+        return countryCode;
     }
 
-    public void setCountry_code(String country_code) {
-        this.country_code = country_code;
+    public void setCountryCode(String countryCode) {
+        this.countryCode = countryCode;
     }
 
     public String getName() {

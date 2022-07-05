@@ -14,7 +14,7 @@ public class Language {
     private Long languageId;
 
     @Column(name = "codigo")
-    private String language_code;
+    private String languageCode;
 
     @Column(name = "nombre")
     private String name;
@@ -30,12 +30,12 @@ public class Language {
         this.languageId = languageId;
     }
 
-    public String getLanguage_code() {
-        return language_code;
+    public String getLanguageCode() {
+        return languageCode;
     }
 
-    public void setLanguage_code(String language_code) {
-        this.language_code = language_code;
+    public void setLanguageCode(String languageCode) {
+        this.languageCode = languageCode;
     }
 
     public String getName() {
